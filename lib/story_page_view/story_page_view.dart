@@ -3,8 +3,9 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:story_time/story_page_view/story_limit_controller.dart';
-import 'package:story_time/story_page_view/story_stack_controller.dart';
+import 'package:story_time_customizable/story_page_view/story_limit_controller.dart';
+import 'package:story_time_customizable/story_page_view/story_stack_controller.dart';
+
 
 import 'components/gestures.dart';
 import 'components/indicators.dart';

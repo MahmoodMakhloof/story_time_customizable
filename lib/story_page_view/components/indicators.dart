@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:story_time/story_page_view/story_limit_controller.dart';
+import 'package:story_time_customizable/story_page_view/story_limit_controller.dart';
 
 import '../story_stack_controller.dart';
 
@@ -97,7 +97,7 @@ class _Indicator extends StatelessWidget {
         padding: EdgeInsets.only(left: (index == 0) ? 0 : 4),
         child: LinearProgressIndicator(
           value: value,
-          backgroundColor: Colors.black.withOpacity(0.08),
+          backgroundColor: Colors.grey,
           valueColor: const AlwaysStoppedAnimation<Color>(Colors.white),
           minHeight: 2,
         ),
