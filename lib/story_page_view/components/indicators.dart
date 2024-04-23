@@ -94,7 +94,7 @@ class _Indicator extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Padding(
-        padding: const EdgeInsets.only(left:  4),
+        padding: const EdgeInsets.symmetric(horizontal: 4),
         child: LinearProgressIndicator(
           value: value,
           backgroundColor: Colors.grey,
